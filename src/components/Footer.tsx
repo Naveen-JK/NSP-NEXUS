@@ -40,7 +40,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
             <div className="flex space-x-4 justify-center md:justify-start">
               <a
-                href="https://facebook.com/sample"
+                href="https://www.facebook.com/share/1BT9eE3oEE/"
                 className="w-12 h-12 bg-primary bg-opacity-30 rounded-full flex items-center justify-center hover:bg-opacity-50 hover:scale-110 transition-all duration-300 group shadow-lg"
                 aria-label="Follow us on Facebook"
               >

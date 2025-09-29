@@ -200,7 +200,7 @@ export default function HomePage() {
               { title: "Machine Learning", description: "Develop predictive models and data-driven solutions", icon: Award },
               { title: "Data Science", description: "Analyze complex datasets and extract meaningful insights", icon: Users },
               { title: "Web Development", description: "Build modern, responsive web applications and websites", icon: Globe },
-              { title: "Android Development", description: "Create innovative mobile applications for Android platform", icon: Briefcase },
+              { title: "Application Development", description: "Create innovative mobile applications for Android platform", icon: Briefcase },
               { title: "UI/UX Design", description: "Design intuitive user interfaces and exceptional user experiences", icon: FileText },
               { title: "Java Programming", description: "Master object-oriented programming with Java", icon: Calendar },
               { title: "Python Programming", description: "Learn versatile programming with Python for various applications", icon: Users2 },
@@ -216,7 +216,7 @@ export default function HomePage() {
                     <h3 className="text-xl font-semibold text-gray-900 mb-3">{category.title}</h3>
                     <p className="text-gray-600 text-sm leading-relaxed mb-6">{category.description}</p>
                     <a
-                      href="https://docs.google.com/forms/d/e/1FAIpQLSfshfPSzqCtaVwIR_4fJc2ubRJkwW6fL_RDvtiHqDMwX2SG3Q/viewform?usp=dialog"
+                      href="https://forms.gle/DvwiPEBfsDURVo198"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

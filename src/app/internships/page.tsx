@@ -64,7 +64,7 @@ const InternshipCard = ({ icon: Icon, title, duration, difficulty, description }
           {description}
         </p>
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfshfPSzqCtaVwIR_4fJc2ubRJkwW6fL_RDvtiHqDMwX2SG3Q/viewform?usp=dialog"
+          href="https://forms.gle/UxcDoGwhGShCzCfs7"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -297,7 +297,7 @@ export default function InternshipsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfshfPSzqCtaVwIR_4fJc2ubRJkwW6fL_RDvtiHqDMwX2SG3Q/viewform?usp=dialog"
+              href="https://forms.gle/CH2PN5fPPpSep36q7"
               target="_blank"
               rel="noopener noreferrer"
             >

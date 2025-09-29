@@ -121,12 +121,11 @@ const internshipsList = [
   "Machine Learning",
   "Data Science",
   "Web Development",
-  "Android Development",
+  "Application Development",
   "UI/UX Design",
   "Java Programming",
   "Python Programming",
   "C++ Programming",
-  // New additions
   "Business Intelligence",
   "Internet of Things (IoT)",
   "Product Management Fundamentals",
@@ -306,13 +305,13 @@ export default function Navigation({ currentPath = "/" }: NavigationProps) {
               {openMenu === "internships" && (
                 <div
                   className="
-      absolute top-full left-1/2 -translate-x-1/2 
-      mt-4 
-      w-[95vw] md:w-[80vw] max-w-3xl 
-      max-h-[60vh] overflow-auto 
-      bg-white shadow-2xl border border-gray-200 rounded-2xl p-4 
-      grid grid-cols-1 sm:grid-cols-2 gap-2 z-50
-    "
+                    absolute top-full left-1/2 -translate-x-1/2 
+                    mt-4 
+                    w-[95vw] md:w-[80vw] max-w-3xl 
+                    max-h-[60vh] overflow-auto 
+                    bg-white shadow-2xl border border-gray-200 rounded-2xl p-4 
+                    grid grid-cols-1 sm:grid-cols-2 gap-2 z-50
+                  "
                 >
                   {internshipsList.map((item) => (
                     <Link

@@ -350,7 +350,7 @@ export default function ContactPage() {
                     <Clock className="w-5 h-5 text-purple-600" />
                     <div>
                       <p className="font-medium text-gray-900">Phone calls</p>
-                      <p className="text-sm text-gray-600">Monday - Friday, 9AM - 10PM PST</p>
+                      <p className="text-sm text-gray-600">Monday - Saturday, 9AM - 10PM PST</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">

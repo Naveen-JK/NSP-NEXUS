@@ -133,10 +133,10 @@ export default function AboutSection() {
 
         {/* Bottom CTA */}
           <div className={`text-center mt-16 transition-all duration-700 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-300 to-indigo-300 rounded-full text-white font-medium hover:from-purple-400 hover:to-indigo-400 transition-all duration-300 cursor-pointer">
+            <button onClick={() => window.location.href = "/contact"} className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-300 to-indigo-300 rounded-full text-white font-medium hover:from-purple-400 hover:to-indigo-400 transition-all duration-300 cursor-pointer">
               <GraduationCap className="w-5 h-5" />
                 <span>Ready to start your journey?</span>
-            </div>
+            </button>
           </div>
       </div>
     </section>
