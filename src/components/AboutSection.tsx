@@ -1,8 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { GraduationCap } from "lucide-react";
-
+import { GraduationCap } from "lucide-react"; 
 export default function AboutSection() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
@@ -60,7 +59,7 @@ export default function AboutSection() {
               </h3>
               
               <p className="text-lg text-[var(--foreground)] leading-relaxed">
-                We are passionate about bridging the gap between talented students and meaningful internship opportunities. Our mission is to create a thriving ecosystem where students can discover, learn, and grow through hands-on experience.
+                We are passionate about bridging the gap between talented students and meaningful opportunities. Along with offering diverse internships in domains like Web Development, Data Science, AI/ML, UI/UX, and more, we also deliver high-quality IT services to clients worldwide.
               </p>
             </div>
 
@@ -70,7 +69,7 @@ export default function AboutSection() {
               </h4>
               
               <p className="text-[var(--foreground)] leading-relaxed">
-                At the heart of our platform lies a commitment to fostering genuine connections. We believe that career growth happens through meaningful networking, skill development, and collaborative learning experiences that extend far beyond traditional boundaries.
+                At the heart of our platform lies a commitment to growth and collaboration. We empower students through real-time projects, skill development, and industry mentorship, while also helping businesses with web, app, data, AI, and digital solutions. By fostering meaningful connections, we ensure both learners and clients achieve long-term success beyond traditional boundaries.
               </p>
             </div>
 
@@ -133,12 +132,12 @@ export default function AboutSection() {
         </div>
 
         {/* Bottom CTA */}
-        <div className={`text-center mt-16 transition-all duration-700 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-300 to-indigo-300 rounded-full text-white font-medium hover:from-purple-400 hover:to-indigo-400 transition-all duration-300 cursor-pointer">
-            <GraduationCap className="w-5 h-5" />
-            <span>Ready to start your journey?</span>
+          <div className={`text-center mt-16 transition-all duration-700 delay-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+            <div className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-300 to-indigo-300 rounded-full text-white font-medium hover:from-purple-400 hover:to-indigo-400 transition-all duration-300 cursor-pointer">
+              <GraduationCap className="w-5 h-5" />
+                <span>Ready to start your journey?</span>
+            </div>
           </div>
-        </div>
       </div>
     </section>
   );

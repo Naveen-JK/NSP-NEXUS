@@ -322,9 +322,10 @@ export default function ContactPage() {
                       <h3 className="font-semibold text-gray-900 mb-1">Office</h3>
                       <p className="text-gray-600 mb-2">Visit us at our headquarters</p>
                       <address className="text-gray-700 not-italic">
-                        123 Innovation Drive<br />
-                        Tech Hub, CA 94105<br />
-                        United States
+                        No 66/1, Rajeswari 2nd street,<br />
+                        Gokulapuram,<br />
+                        Chengalpattu – 603001,<br />
+                        Tamil Nadu, India
                       </address>
                     </div>
                   </div>
@@ -349,7 +350,7 @@ export default function ContactPage() {
                     <Clock className="w-5 h-5 text-purple-600" />
                     <div>
                       <p className="font-medium text-gray-900">Phone calls</p>
-                      <p className="text-sm text-gray-600">Monday - Friday, 9AM - 6PM PST</p>
+                      <p className="text-sm text-gray-600">Monday - Friday, 9AM - 10PM PST</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">

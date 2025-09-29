@@ -82,6 +82,10 @@ export default function Footer() {
               <p className="mt-4">
                 <span className="block text-white">Email: nspnexus003@gmail.com</span>
                 <span className="block text-white">Phone: +91 9342 994 115</span>
+                <span className="block text-white">Address: No. 66/1, Rajeswari 2nd Street,
+Gokulapuram,
+Chengalpattu – 603001,
+Tamil Nadu, India</span>
               </p>
             </div>
           </div>

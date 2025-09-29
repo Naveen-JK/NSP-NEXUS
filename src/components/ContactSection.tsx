@@ -210,7 +210,7 @@ export default function ContactSection({ className }: ContactSectionProps) {
                   <div>
                     <h4 className="font-medium text-[var(--text-dark)] mb-1">Phone</h4>
                     <p className="text-[var(--text-medium)]">+91 9342994115</p>
-                    <p className="text-sm text-[var(--text-light)]">Monday - Friday, 9AM - 6PM EST</p>
+                    <p className="text-sm text-[var(--text-light)]">Monday - Saturday, 9AM - 10PM EST</p>
                   </div>
                 </div>
 
@@ -220,8 +220,10 @@ export default function ContactSection({ className }: ContactSectionProps) {
                   </div>
                   <div>
                     <h4 className="font-medium text-[var(--text-dark)] mb-1">Office</h4>
-                    <p className="text-[var(--text-medium)]">123 Business District</p>
-                    <p className="text-[var(--text-medium)]">New York, NY 10001</p>
+                    <p className="text-[var(--text-medium)]">No 66/1, Rajeswari 2nd street,</p>
+                    <p className="text-[var(--text-medium)]">Gokulapuram,</p>
+                    <p className="text-[var(--text-medium)]">Chengalpattu – 603001,</p>
+                    <p className="text-[var(--text-medium)]">Tamil Nadu, India</p>
                     <p className="text-sm text-[var(--text-light)]">Available for in-person meetings</p>
                   </div>
                 </div>

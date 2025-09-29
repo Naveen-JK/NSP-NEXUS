@@ -292,53 +292,11 @@ export default function ServicesPage() {
       {/* What We Do Section */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
+          <div className="text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-purple-600 mb-4">What We Do?</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              We provide comprehensive solutions to help you grow your network, gain experience, and advance your career.
+              We deliver end-to-end IT solutions, including software development, web design, digital marketing, cloud services, and consulting — helping clients achieve growth through innovation and technology.
             </p>
-          </div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Card className="p-6 border-0 bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-0">
-                <div className="w-12 h-12 mb-4 bg-gradient-to-br from-purple-300/30 to-indigo-300/30 rounded-xl flex items-center justify-center">
-                  <Users className="w-6 h-6 text-purple-600" />
-                </div>
-                <h3 className="font-semibold text-gray-800 mb-2">Network Building</h3>
-                <p className="text-sm text-gray-600">We help you build your network by joining our curated community.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="p-6 border-0 bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-0">
-                <div className="w-12 h-12 mb-4 bg-gradient-to-br from-purple-300/30 to-indigo-300/30 rounded-xl flex items-center justify-center">
-                  <Trophy className="w-6 h-6 text-purple-600" />
-                </div>
-                <h3 className="font-semibold text-gray-800 mb-2">Certificates</h3>
-                <p className="text-sm text-gray-600">We provide internship certificates and experience letters in 15 to 45 days.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="p-6 border-0 bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-0">
-                <div className="w-12 h-12 mb-4 bg-gradient-to-br from-purple-300/30 to-indigo-300/30 rounded-xl flex items-center justify-center">
-                  <Target className="w-6 h-6 text-purple-600" />
-                </div>
-                <h3 className="font-semibold text-gray-800 mb-2">Opportunities</h3>
-                <p className="text-sm text-gray-600">We provide internship opportunities from top firms across the globe.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="p-6 border-0 bg-white/80 backdrop-blur-sm shadow-lg hover:shadow-xl transition-all duration-300">
-              <CardContent className="p-0">
-                <div className="w-12 h-12 mb-4 bg-gradient-to-br from-purple-300/30 to-indigo-300/30 rounded-xl flex items-center justify-center">
-                  <Calendar className="w-6 h-6 text-purple-600" />
-                </div>
-                <h3 className="font-semibold text-gray-800 mb-2">Free Access</h3>
-                <p className="text-sm text-gray-600">You'll get free access to community beta internships.</p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>

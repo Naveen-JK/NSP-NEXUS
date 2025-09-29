@@ -81,7 +81,7 @@ const StatsSection = () => {
   const stats = [
     { number: '350+', label: 'Community Members' },
     { number: '10+', label: 'Upcoming Events' },
-    { number: '50+', label: 'Groups of Intern' },
+    { number: '5+', label: 'Groups of Intern' },
     { number: '350+', label: 'Handpicked Internships' }
   ];
 
@@ -112,64 +112,64 @@ export default function InternshipsPage() {
     {
       icon: Brain,
       title: "Artificial Intelligence",
-      duration: "45 days",
-      difficulty: "Advanced",
+      duration: "30 days",
+      difficulty: "Beginner",
       description: "Dive deep into AI algorithms, neural networks, and machine learning models. Build intelligent systems and explore the future of technology."
     },
     {
       icon: Database,
       title: "Machine Learning",
       duration: "30 days",
-      difficulty: "Intermediate",
+      difficulty: "Beginner",
       description: "Master ML algorithms, data preprocessing, and model optimization. Create predictive models and analyze complex datasets."
     },
     {
       icon: FileCode,
       title: "Data Science",
-      duration: "35 days",
+      duration: "30 days",
       difficulty: "Intermediate",
       description: "Extract insights from data using statistical analysis, visualization tools, and advanced analytics techniques."
     },
     {
       icon: Globe,
       title: "Web Development",
-      duration: "25 days",
-      difficulty: "Beginner",
+      duration: "30 days",
+      difficulty: "Intermediate",
       description: "Build modern, responsive websites using HTML, CSS, JavaScript, and popular frameworks like React and Node.js."
     },
     {
       icon: Smartphone,
-      title: "Android Development",
+      title: "Application Development",
       duration: "30 days",
-      difficulty: "Intermediate",
+      difficulty: "Beginner",
       description: "Create native Android applications using Java/Kotlin, Android Studio, and modern development practices."
     },
     {
       icon: Palette,
       title: "UI/UX Design",
-      duration: "20 days",
-      difficulty: "Beginner",
+      duration: "30 days",
+      difficulty: "Intermediate",
       description: "Design user-centered interfaces and experiences using Figma, Adobe XD, and design thinking methodologies."
     },
     {
       icon: Coffee,
       title: "Java Programming",
-      duration: "25 days",
+      duration: "30 days",
       difficulty: "Beginner",
       description: "Learn object-oriented programming, data structures, and build robust applications with Java."
     },
     {
       icon: Code,
       title: "Python Programming",
-      duration: "20 days",
-      difficulty: "Beginner",
+      duration: "30 days",
+      difficulty: "Advanced",
       description: "Master Python fundamentals, libraries, and frameworks for web development, automation, and data analysis."
     },
     {
       icon: Cpu,
       title: "C++ Programming",
       duration: "30 days",
-      difficulty: "Advanced",
+      difficulty: "Intermediate",
       description: "Deep dive into system programming, memory management, and high-performance computing with C++."
     },
     {
@@ -189,7 +189,7 @@ export default function InternshipsPage() {
     {
       icon: Layers,
       title: "Product Management Fundamentals",
-      duration: "20 days",
+      duration: "30 days",
       difficulty: "Beginner",
       description: "Learn product lifecycle, roadmapping, and stakeholder collaboration fundamentals."
     },
@@ -203,7 +203,7 @@ export default function InternshipsPage() {
     {
       icon: Megaphone,
       title: "Digital Marketing",
-      duration: "20 days",
+      duration: "30 days",
       difficulty: "Beginner",
       description: "SEO, SEM, and social strategies to grow digital presence effectively."
     },
@@ -217,21 +217,21 @@ export default function InternshipsPage() {
     {
       icon: Atom,
       title: "React JS",
-      duration: "20 days",
+      duration: "30 days",
       difficulty: "Beginner",
       description: "Build SPA frontends with React, hooks, and modern tooling."
     },
     {
       icon: Binary,
       title: "JavaScript Developer",
-      duration: "20 days",
-      difficulty: "Beginner",
+      duration: "30 days",
+      difficulty: "Intermediate",
       description: "Core JS, modern syntax, and project-based learning for real apps."
     },
     {
       icon: Database,
       title: "R Language",
-      duration: "20 days",
+      duration: "30 days",
       difficulty: "Beginner",
       description: "Data analysis and visualization using R and tidyverse ecosystem."
     }

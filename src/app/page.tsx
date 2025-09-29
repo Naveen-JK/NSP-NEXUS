@@ -37,22 +37,22 @@ export default function HomePage() {
     {
       icon: Network,
       title: "Build Your Network",
-      description: "We help you build your network by joining our curated community."
+      description: "Join our vibrant community and expand your professional network with peers, mentors, and industry experts."
     },
     {
       icon: Award,
       title: "Certificates & Experience Letters",
-      description: "Internship certificates & experience letters (15 to 45 days)."
+      description: "Gain recognized internship certificates and detailed experience letters (15–45 days) to showcase your skills."
     },
     {
       icon: Globe,
       title: "Multiple Domains",
-      description: "Internship opportunities across multiple domains."
+      description: "Explore internships and services across diverse domain-Web Development, Data Science, AI/ML, UI/UX, Digital Marketing, and more."
     },
     {
       icon: FileText,
       title: "Free Access",
-      description: "Free access to past internships."
+      description: "Get free access to past internship resources, learning materials, and valuable industry insights anytime."
     }
   ];
 
@@ -148,7 +148,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">What We Do?</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We provide comprehensive internship opportunities and services to help you succeed in your career journey.
+              We provide end-to-end internship opportunities and IT services designed to help students grow and businesses thrive. Our platform connects learners with industry projects while delivering innovative solutions to clients.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
